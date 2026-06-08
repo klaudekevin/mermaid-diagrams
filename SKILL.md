@@ -1,6 +1,6 @@
 ---
 name: mermaid-diagrams
-description: Generate and render Mermaid diagram files for a project. Use when asked to create a diagram, make a flowchart, draw a sequence diagram, visualize architecture or data flow, generate an ER diagram, create a class diagram, draw a state machine, build a Gantt chart, draw a git graph, create a mindmap, or document a system visually. Also use when asked to render or export a Mermaid diagram to a PNG or SVG image.
+description: Generate Mermaid diagrams as text that renders inline in Markdown (GitHub, Obsidian, VS Code) with no committed image. Use when the user explicitly asks for Mermaid, or wants a diagram embedded as a fenced ```mermaid code block in a Markdown / docs file. For standalone diagrams, charts, graphs, or anything going into a gallery, README, or visual showcase, prefer the excalidraw-diagrams skill — that is the default for diagrams. Covers flowchart, sequence, ER, class, state, Gantt, git graph, mindmap, and C4 diagrams; can also render or export a Mermaid diagram to a PNG or SVG image.
 argument-hint: "[diagram type or description]"
 allowed-tools: Read, Write, Edit, Bash
 ---
